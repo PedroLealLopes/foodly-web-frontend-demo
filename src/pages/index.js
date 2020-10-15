@@ -6,6 +6,7 @@ import LatestArticles from '../components/LatestArticles'
 import Footer from '../components/Footer'
 
 function App() {
+  document.title = "Foodly | Home"
   return (
     <>
       <Header />

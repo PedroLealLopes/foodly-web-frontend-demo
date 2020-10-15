@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Container from '../components/Container'
 
 function App() {
+  document.title = "Foodly | Nome Restaurante"
   return (
     <>
       <Header />

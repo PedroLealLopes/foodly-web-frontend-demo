@@ -6,6 +6,7 @@ import Container from '../components/Container'
 import ImageRestaurant from '../components/Article/image-restaurant.jpg'
 
 function App() {
+  document.title = "Foodly | Restaurants"
   return (
     <>
       <Header />
