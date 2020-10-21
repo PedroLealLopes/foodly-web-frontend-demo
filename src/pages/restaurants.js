@@ -7,13 +7,21 @@ import ImageRestaurant from '../components/Article/image-restaurant.jpg'
 
 function App() {
   document.title = "Foodly | Restaurants"
+  window.scrollTo(0, 0);
   return (
     <>
       <Header />
       <Container className="restaurants-container">
         <form className="restaurants-form">
-          <label className="restaurants-searchbar-label">Search for Restaurant:</label>
-          <input type="text" className="restaurants-searchbar" />
+          {/* <label className="restaurants-searchbar-label">Search for Restaurant:</label>
+          <input type="text" className="restaurants-searchbar" /> */}
+
+          
+        <div className="field">
+          <input autoComplete="off" type="text" name="restaurant-name" id="restaurant-name" placeholder=" "/>
+          <label htmlFor="restaurant-name">Search for Restaurant:</label>
+        </div>
+
         </form>
 
 
