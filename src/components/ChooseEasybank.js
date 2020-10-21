@@ -18,7 +18,7 @@ const ChooseEasybank = () => {
       <div className='choose-easybank-list'>
         <div className='choose-easybank-list-item'>
           <IconOnlineSVG />
-          <h3>Online Banking</h3>
+          <h3>Online Restaurant</h3>
           <p>
             Our modern web and mobile applications allow you to keep track of
             your favorite restaurants wherever you are in the world. Receive notifications about restaurant occupancy

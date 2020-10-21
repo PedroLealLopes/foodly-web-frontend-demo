@@ -6,12 +6,9 @@ const Article = ({img, alt, article:{author, title, content}}) => {
         <div className='article-container'>
             <img src={img} alt={alt}/>
             <div className="article-body">
-              <div className="article-author">  
-                {author}
-              </div>
                   <h4>
-                    <Link to='/restaurants'>
-                      {title}
+                    <Link to='/restaurants/1'>
+                      Restaurant Name
                     </Link>
                   </h4>
               <p>

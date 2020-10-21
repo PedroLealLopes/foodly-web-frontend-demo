@@ -31,7 +31,7 @@ const Footer = () => {
         <div className='footer-links-right'>
           <a href="#careers">Careers</a>
           <a href="#support">Support</a>
-          <a href="#privacy-policy">Privacy Policy</a>
+          <Link to='/privacy-policy'>Privacy Policy</Link>
         </div>
       </div>
       <div className='footer-links-button'>
