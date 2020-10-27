@@ -392,6 +392,14 @@ body {
     flex-flow: column-reverse;
     position: relative;
     width: 100%;
+
+    input{
+    font-family: 'Montserrat', sans-serif;
+    }
+
+    label{
+      font-family: 'Montserrat', sans-serif;
+      }
   }
   
   label{
@@ -615,6 +623,50 @@ strong{
   a:focus{
     border-bottom: none;
   }
+}
+
+.login-container{
+  height:100vh;
+  width: calc(100vw - 400px);
+  justify-content: center;
+  align-items: center;
+}
+
+.login{
+  width: 300px;
+  padding: 25px 50px;
+  border-radius: 1rem;
+  border: 3px solid $Purple;
+  background-color: $OffWhite;
+}
+
+.login-form{
+  display: flex;
+  flex-flow: wrap column;
+
+  & * {
+    margin-top: .5rem;
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  input{
+    width: calc(300px - 24px);
+    border-radius: 10rem;
+    border: none;
+    padding: 10px;
+    border: 2px solid $Purple;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  input:focus{
+    outline: none;
+    border: 2px dashed $Purple;
+  }
+}
+
+.profile-container{
+  
 }
 
 @media only screen and (max-width: 1200px) {

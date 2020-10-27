@@ -26,7 +26,9 @@ export default function Header() {
             <a href='#blog'>Blog</a>
           </li>
           <li>
-            <a href='#careers'>Careers</a>
+            <NavLink exact activeClassName="active" to='/profile'>
+              Profile
+            </NavLink>
           </li>
         </ul>
       </nav>
